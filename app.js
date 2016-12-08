@@ -1,16 +1,15 @@
-'use strict'
 
 var express = require('express');
-
-//Create our app
 var app = express();
 
-app.use(express.static('public'));
+var port = process.env.PORT || 3000;
 
 
-app.set('port', (process.env.PORT || 5000));
+app.set('view engine', 'ejs');
+app.use('/assets', express.static(__dirname + '/public'));
 
-// Spin up the server
-app.listen(app.get('port'), function() {
-    console.log('running on port', app.get('port'))
-})
+app.get('/', function(req, res) {
+	res.render('index');
+});
+
+app.listen(port);
