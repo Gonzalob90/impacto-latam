@@ -1,14 +1,3 @@
-/*
-Theme Name: Launchify
-Theme URI: http://themes.kudosthemes.co.uk/launchify/
-Description: A responsive coming soon theme.
-Author: Paul Allen
-Author URI: http://paulallen.me.uk
-Version: 1.0
-*/
-
-
-
 
 /*=============================================================================
   ***************************************************************************
@@ -128,7 +117,17 @@ html,body,input { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: 
 
 html,body { overflow-x: hidden;}
 
-h1,h2,h3,h4,h5,h6 { font-weight: 300;}
+
+h1 {
+  font-size: 70px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+h2,h3,h4,h5,h6 { font-weight: 300;}
 
 a { outline: none; color: #fff;}
 a:hover, 
@@ -143,9 +142,6 @@ textarea { font-size: 16px;}
 
 
 
-
-
-
 /*=============================================================================
   ***************************************************************************
   Header
@@ -153,11 +149,27 @@ textarea { font-size: 16px;}
 =============================================================================*/
 
 .intro { display: table; width: 100%;}
-.intro-inner { height: 100%; display: table-cell; vertical-align: middle;}
+.intro-inner { height: 100%; display: table-cell; vertical-align: center;}
 .logo img { max-width: 100%; width: 200px; display: block; margin: 0 auto 75px auto;}
 .text-logo { font-family: 'Pacifico', cursive; font-size: 50px; text-shadow: 2px 2px 0 rgba(0,0,0,.10); margin: 0 auto 75px auto; display: none;}
 
 
+.navbar-default .navbar-nav > li > a:hover {
+  color: #02bdd5;
+}
+.navbar.navbar-default {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.navbar.navbar-default .navbar-toggle {
+  margin-top: 32px;
+}
+}
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle {
+  background: #444;
+}
 
 
 

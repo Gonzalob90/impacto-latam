@@ -1,31 +1,31 @@
 .background-colour,
-.about-icon { background: #0091ef;}
+.about-icon { background: #28B4E0;}
 .background-colour input[type="submit"],
-.background-image input[type="submit"] { color: #0091ef;}
+.background-image input[type="submit"] { color: #28B4E0;}
 .background-colour { color: #fff;}
 
-.btn-flat-colour { border: 2px solid #0072bc; color: #0072bc;}
+.btn-flat-colour { border: 2px solid #28B4E0; color: #28B4E0;}
 
-.btn-flat-colour:hover { color: #0072bc;}
+.btn-flat-colour:hover { color: #28B4E0;}
 
 
 
 
 @media (min-width: 992px) {
 
-.btn-flat-white:hover { color: #0072bc; background: #fff;}
+.btn-flat-white:hover { color: #28B4E0; background: #fff;}
 
-.btn-flat-colour:hover { color: #fff; background: #0072bc;}
+.btn-flat-colour:hover { color: #fff; background: #28B4E0;}
 
 .background-colour input[type="submit"]:hover,
 .background-image input[type="submit"]:hover { color: #fff; background: #0072bc;}
 input[type="email"]:focus { border: 3px solid #fff;}
 
-.team-module a:hover { color: #0072bc;}
+.team-module a:hover { color: #28B4E0;}
 
-.social-nav a:hover { color: #0072bc; border: 2px solid #0072bc;}
+.social-nav a:hover { color: #28B4E0; border: 2px solid #28B4E0;}
 
-.footer-nav a:hover { color: #0072bc;}
+.footer-nav a:hover { color: #28B4E0;}
 
 
 
