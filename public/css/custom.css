@@ -172,8 +172,6 @@ textarea { font-size: 16px;}
 }
 
 
-
-
 /*=============================================================================
   ***************************************************************************
   About
@@ -184,10 +182,6 @@ textarea { font-size: 16px;}
 .ie9 .mask { width: 126px; height: 126px; margin: 0 auto 20px auto; overflow: hidden; border-radius: 100%;}
 .about-icon { width: 126px; height: 126px; margin: 0 auto 20px auto; padding: 5px; border-radius: 100%;}
 .about-icon span { width: 100%; height: 100%; border: 2px solid #fff; color: #fff; border-radius: 100%; font-size: 40px; line-height: 112px;}
-
-
-
-
 
 
 /*=============================================================================

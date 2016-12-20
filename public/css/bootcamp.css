@@ -1,0 +1,240 @@
+
+/*=============================================================================
+  ***************************************************************************
+  
+  Table of contents
+
+  1. Global - Lines 48 - 90
+
+  2. Typography - Lines 91 - 118
+
+  3. Header - Lines 119 - 134
+
+  4. About - Lines 135 - 150 & 277 - 289
+
+  5. Countdown - Lines 151 - 167
+
+  6. Meet The Team - Lines 168 - 182 & 290 - 302
+
+  7. Get Notified - Lines 183 - 197
+
+  8. Footer - Lines 198 - 215 & 240 - 252
+
+  9. Background Images - Lines 310 - 330
+
+  ***************************************************************************
+=============================================================================*/
+
+
+#header.background-bootcamp{
+  background: url('../images/bootcamp-bkg.png') no-repeat center top;
+  width: auto;
+  height: auto;
+  background-size: 110%;
+  display: block;
+  max-width: 1440px;
+  max-height: 595px
+  padding-top: 0px;
+}
+
+.titulo-servicios{
+  font-weight: 700;
+  color: #0E2F3C;
+  font-size: 46px;
+  font-family: "Helvetica Neue"
+}
+
+.texto-servicios{
+  font-weight: bold;
+  color: #08C2BC;
+  font-size: 36px;
+}
+
+.p-servicios{
+  font-weight: normal;
+  color: #000000;
+  font-size: 26px;
+}
+
+.btn-flat-bootcamp { border: 2px solid #fff; color: #fff; background: rgba(8,194,188,1);margin-top: 30px}
+
+.mask-servicios { width: 126px; height: 126px; margin: 0 auto 20px auto; overflow: hidden;}
+
+.aprende-icon { width: 126px; height: 126px; margin: 0 auto 20px auto; padding: 5px; border-radius: 10%; background-color: #41AFC1;}
+.rotate-icon {-webkit-transform: rotate(45deg) skew(10deg, 10deg)}
+.aprende-icon span { width: 100%; height: 100%; border: 2px solid #fff; color: #fff; font-size: 40px; line-height: 112px;}
+
+.servicios-contactar {
+  background-color: #2DBCBD;
+}
+
+.servicios-cuadros {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.overlay-bootcamp { 
+  padding: 100px 0px 0px;
+}
+
+/*=============================================================================
+  ***************************************************************************
+  Cuadros 
+  ***************************************************************************
+=============================================================================*/
+
+.imagen1-bootcamp { background-color: #323B44; height: 475px;max-width: 720px}
+.cuadro-consultoria { background-image: url("../images/consultoria.jpg"); height: 475px;max-width: 720px}
+.color-consultoria { background-color: #4D5967; max-width: 720px; height: 475px }
+.cuadro-competencia { background-image: url("../images/competencia.jpg"); height: 475px;max-width: 720px}
+.color-competencia { background-color: #323B44; max-width: 720px; height: 475px }
+
+.circle1 {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 400px;
+  height: 400px;
+  background: #21D8DE;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 200px;
+}
+
+.bootcamp-innovacion{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.circle2 {
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+  background: #28B4E0;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 200px;
+}
+
+.circle3 {
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+  background: #FD8469;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 200px;
+}
+
+.titulo-cuadro{
+  font-size: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.titulo-cuadro-bootcamp{
+  font-size: 30px;
+  line-height: 30px;
+  color: #21D8DE;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.subtitulo-cuadro{
+  font-size: 32px;
+  line-height: 40px;
+  color: #08C2BC;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.texto-cuadro-bootcamp{
+  font-size: 26px;
+  line-height: 30px;
+  color: #0E2F3C;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  left: 50px;
+  text-indent: 0.5em;
+}
+
+.texto-cuadro{
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  left: 50px;
+  text-indent: 0.5em;
+}
+
+.texto-cuadro:before{
+  border-top: 2px solid #E76E51;
+  width: 40px;
+  margin-top:14px;
+  content: "";
+  float:left;
+  display: inline-block;
+}
+
+.temario{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.image-center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-temario{
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 300;
+  font-family: "Helvetica Neue"
+}
+
+.titulo-temario{
+  font-size: 25px;
+  line-height: 25px;
+  color: #21D8DE;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+/*=============================================================================
+  ***************************************************************************
+  Nav bar Gonzalo
+  ***************************************************************************
+=============================================================================*/
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 213px;
+    line-height: 50px; 
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 5px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.navbar-fixed-top {
+     background-color: rgba(35,39,45,.8);
+}
+

@@ -1,0 +1,158 @@
+
+/*=============================================================================
+  ***************************************************************************
+  
+  Table of contents
+
+  1. Global - Lines 48 - 90
+
+  2. Typography - Lines 91 - 118
+
+  3. Header - Lines 119 - 134
+
+  4. About - Lines 135 - 150 & 277 - 289
+
+  5. Countdown - Lines 151 - 167
+
+  6. Meet The Team - Lines 168 - 182 & 290 - 302
+
+  7. Get Notified - Lines 183 - 197
+
+  8. Footer - Lines 198 - 215 & 240 - 252
+
+  9. Background Images - Lines 310 - 330
+
+  ***************************************************************************
+=============================================================================*/
+
+
+#header.background-servicios{
+    color: #FFFFFF;
+}
+
+.titulo-servicios{
+  font-weight: bold;
+  color: #08C2BC;
+  font-size: 46px;
+}
+
+.texto-servicios{
+  font-weight: normal;
+  color: #08C2BC;
+  font-size: 36px;
+}
+
+.p-servicios{
+  font-weight: normal;
+  color: #000000;
+  font-size: 26px;
+}
+
+.btn-flat-servicios { border: 2px solid #fff; color: #fff; background: rgba(8,194,188,1);}
+
+.mask-servicios { width: 126px; height: 126px; margin: 0 auto 20px auto; overflow: hidden;}
+
+.servicios-icon { width: 100px; height: 100px; margin: 0 auto 20px auto; padding: 5px; border-radius: 10%; background-color: #41AFC1; -webkit-transform: rotate(45deg) skew(1deg, 1deg)}
+.img-rotate {
+  -webkit-transform: rotate(-45deg) 
+}
+
+.servicios-contactar {
+  background-color: #2DBCBD;
+}
+
+.servicios-cuadros {
+  padding-bottom: 0px;
+}
+
+.overlay-servicios { 
+  padding: 100px 0;
+  width: 100%; 
+  height: 100%;
+}
+
+.overlay-servicios-inicio { 
+  padding: 40px 0;
+  width: 100%; 
+  height: 100%;
+}
+
+
+/*=============================================================================
+  ***************************************************************************
+  Cuadros 
+  ***************************************************************************
+=============================================================================*/
+
+.cuadro-bootcamp { background-image: url("../images/bootcamp.jpg"); height: 475px;max-width: 720px}
+.color-bootcamp { background-color: #323B44; max-width: 720px; height: 475px }
+.cuadro-consultoria { background-image: url("../images/consultoria.jpg"); height: 475px;max-width: 720px}
+.color-consultoria { background-color: #4D5967; max-width: 720px; height: 475px }
+.cuadro-competencia { background-image: url("../images/competencia.jpg"); height: 475px;max-width: 720px}
+.color-competencia { background-color: #323B44; max-width: 720px; height: 475px }
+
+
+.titulo-cuadro{
+  font-size: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.subtitulo-cuadro{
+  font-size: 32px;
+  line-height: 40px;
+  color: #08C2BC;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.texto-cuadro{
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  left: 50px;
+  text-indent: 0.5em;
+}
+
+.texto-cuadro:before{
+  border-top: 2px solid #E76E51;
+  width: 40px;
+  margin-top:14px;
+  content: "";
+  float:left;
+  display: inline-block;
+}
+
+/*=============================================================================
+  ***************************************************************************
+  Nav bar Gonzalo
+  ***************************************************************************
+=============================================================================*/
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 213px;
+    line-height: 50px; 
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 5px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.navbar-fixed-top {
+     background-color: rgba(35,39,45,.8);
+}
+
