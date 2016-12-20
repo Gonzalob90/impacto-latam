@@ -129,9 +129,10 @@
   display: inline-block;
 }
 
+
 /*=============================================================================
   ***************************************************************************
-  Nav bar Gonzalo
+  Nuevo Nav Bar
   ***************************************************************************
 =============================================================================*/
 
@@ -141,18 +142,41 @@
     max-height: 40px;
     max-width: 213px;
     line-height: 50px; 
-    vertical-align: middle;
+    padding-top: 5px;
+}
+
+
+.navbar{
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
 }
 
 .navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 5px 5px;
+    font-size: 24px;
+    padding-top: 0px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #23272D;
+    padding-top: 5px;
+}
+
+nav.compact .nav.navbar-nav.navbar-right li a {
+    color: white;
+    padding-top: 15px;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: rgba(35,39,45,.8);
+    border-color: rgba(35,39,45);
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
     font-size: 18px;
-    line-height: 50px;
 }
-
-.navbar-fixed-top {
-     background-color: rgba(35,39,45,.8);
-}
-
