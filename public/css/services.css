@@ -85,14 +85,23 @@
 =============================================================================*/
 
 .cuadro-bootcamp { background-image: url("../images/bootcamp.jpg"); height: 475px;max-width: 720px}
-.color-bootcamp { background-color: #323B44; max-width: 720px; height: 475px }
+.color-bootcamp { background-color: #323B44; height: 475px; display: block; }
 .cuadro-consultoria { background-image: url("../images/consultoria.jpg"); height: 475px;max-width: 720px}
-.color-consultoria { background-color: #4D5967; max-width: 720px; height: 475px }
+.color-consultoria { background-color: #4D5967; height: 475px; display: block;}
 .cuadro-competencia { background-image: url("../images/competencia.jpg"); height: 475px;max-width: 720px}
-.color-competencia { background-color: #323B44; max-width: 720px; height: 475px }
+.color-competencia { background-color: #323B44; height: 475px; display: block; }
 
 
 .titulo-cuadro{
+  font-size: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.titulo-cuadro-programa{
   font-size: 50px;
   line-height: 50px;
   color: #FFFFFF;
@@ -108,6 +117,25 @@
   font-weight: lighter;
   margin-bottom: 15px;
   text-transform: uppercase;
+}
+
+.texto-cuadro-programa{
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  left: 50px;
+  text-indent: 0.5em;
+}
+
+.texto-cuadro-programa:before{
+  border-top: 2px solid #E76E51;
+  width: 40px;
+  margin-top:14px;
+  content: "";
+  float:left;
+  display: inline-block;
 }
 
 .texto-cuadro{
@@ -158,6 +186,7 @@
 .navbar-brand {
     font-size: 24px;
     padding-top: 0px;
+    margin-left: 10px;
 }
 
 .navbar-container {
@@ -183,3 +212,71 @@ nav.compact .nav.navbar-nav.navbar-right li a {
 .navbar-brand.fixed-theme {
     font-size: 18px;
 }
+
+/*=============================================================================
+  ***************************************************************************
+  Responsividad
+  ***************************************************************************
+=============================================================================*/
+
+.content {
+  display: flex;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 769px) {
+  .color-bootcamp{
+    order: 1;
+    -webkit-order: 1;
+    width:100%;
+  }
+  .cuadro-bootcamp{
+    order: 2;
+    -webkit-order: 2;
+    width:100%;
+  }
+  .color-consultoria{
+    order: 3;
+    -webkit-order: 3;
+    width:100%;
+  }
+  .cuadro-consultoria{
+    order: 4;
+    -webkit-order: 4;
+    width:100%;
+  }
+  .color-competencia{
+    order: 5;
+    -webkit-order: 5;
+    width:100%;
+  }
+  .cuadro-competencia{
+    order: 6;
+    -webkit-order: 6;
+    width:100%;
+  }
+
+  .texto-cuadro-programa{
+    padding-top: 35px;
+  }
+  .texto-cuadro{
+    padding-top: 35px;
+  }
+  .titulo-cuadro-programa{
+    padding-top: 20px;
+  }
+  .titulo-cuadro{
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+

@@ -196,6 +196,7 @@ textarea { font-size: 16px;}
 .navbar-brand {
     font-size: 24px;
     padding-top: 0px;
+    margin-left: 10px;
 }
 
 .navbar-container {
@@ -235,6 +236,13 @@ nav.compact .nav.navbar-nav.navbar-right li a {
     -webkit-transition:  0.8s;
 }
 
+.icon-bar{
+  background-color: black;
+}
+
+nav.compact .navbar-toggle.collapsed span {
+    background-color: white;
+}
 
 /*=============================================================================
   ***************************************************************************
