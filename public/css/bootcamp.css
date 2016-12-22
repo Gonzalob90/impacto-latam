@@ -30,12 +30,12 @@
   background: url('../images/bootcamp-bkg.png') no-repeat center top;
   width: auto;
   height: auto;
-  background-size: 110%;
   display: block;
-  max-width: 1440px;
+  max-width: 100%;
   max-height: 595px
   padding-top: 0px;
 }
+
 
 .titulo-servicios{
   font-weight: 700;
@@ -83,21 +83,23 @@
   ***************************************************************************
 =============================================================================*/
 
-.imagen1-bootcamp { background-color: #323B44; height: 475px;max-width: 720px}
-.cuadro-consultoria { background-image: url("../images/consultoria.jpg"); height: 475px;max-width: 720px}
-.color-consultoria { background-color: #4D5967; max-width: 720px; height: 475px }
-.cuadro-competencia { background-image: url("../images/competencia.jpg"); height: 475px;max-width: 720px}
-.color-competencia { background-color: #323B44; max-width: 720px; height: 475px }
+.imagen1-bootcamp { background-color: #323B44; height: 475px; display: block; padding-top:67.5px;}
+.cuadro1-bootcamp { background-color: #323B44; height: 475px; display: block;}
+
+.imagen2-bootcamp { background-color: #323B44; height: 475px; display: block; padding-top:67.5px;}
+.cuadro2-bootcamp { background-color: #323B44; height: 475px; display: block;}
+
+.imagen3-bootcamp { background-color: #323B44; height: 475px; display: block; padding-top:67.5px;}
+.cuadro3-bootcamp { background-color: #323B44; height: 475px; display: block;}
 
 .circle1 {
-  margin-top: 30px;
-  margin-left: 30px;
-  width: 400px;
-  height: 400px;
+  width: 340px;
+  height: 340px;
   background: #21D8DE;
-  -moz-border-radius: 200px;
-  -webkit-border-radius: 200px;
-  border-radius: 200px;
+  -moz-border-radius: 170px;
+  -webkit-border-radius: 170px;
+  border-radius: 170px;
+  display: inline-block;
 }
 
 .bootcamp-innovacion{
@@ -105,24 +107,57 @@
   margin-left: 40px;
 }
 
+.hero1 {
+  width: 100%;
+  position: relative;
+  background-image: url("../images/bootcamp-imagen1c.png");
+  background-size: cover;
+  height: 340px;
+}
+
 .circle2 {
-  margin-top: 10px;
-  width: 400px;
-  height: 400px;
+  width: 340px;
+  height: 340px;
   background: #28B4E0;
-  -moz-border-radius: 200px;
-  -webkit-border-radius: 200px;
-  border-radius: 200px;
+  -moz-border-radius: 170px;
+  -webkit-border-radius: 170px;
+  border-radius: 170px;
+  display: inline-block;
+}
+
+.hero2 {
+  width: 100%;
+  position: relative;
+  background-image: url("../images/bootcamp-imagen2c.png");
+  background-size: cover;
+  height: 340px;
 }
 
 .circle3 {
-  margin-top: 10px;
-  width: 400px;
-  height: 400px;
+  width: 340px;
+  height: 340px;
   background: #FD8469;
-  -moz-border-radius: 200px;
-  -webkit-border-radius: 200px;
-  border-radius: 200px;
+  -moz-border-radius: 170px;
+  -webkit-border-radius: 170px;
+  border-radius: 170px;
+  display: inline-block;
+}
+
+.hero3 {
+  width: 100%;
+  position: relative;
+  background-image: url("../images/bootcamp-imagen3c.png");
+  background-size: cover;
+  height: 340px;
+}
+
+.titulo-cuadro-programa{
+  font-size: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .titulo-cuadro{
@@ -160,6 +195,25 @@
   margin-bottom: 15px;
   left: 50px;
   text-indent: 0.5em;
+}
+
+.texto-cuadro-programa{
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  left: 50px;
+  text-indent: 0.5em;
+}
+
+.texto-cuadro-programa:before{
+  border-top: 2px solid #E76E51;
+  width: 40px;
+  margin-top:14px;
+  content: "";
+  float:left;
+  display: inline-block;
 }
 
 .texto-cuadro{
@@ -212,12 +266,15 @@
 }
 
 
-/*=============================================================================
-  ***************************************************************************
-  Nav bar Gonzalo
-  ***************************************************************************
-=============================================================================*/
+.email{
+  color:white;
+}
 
+.overlay-servicios { 
+  padding: 100px 0;
+  width: 100%; 
+  height: 100%;
+}
 
 /*=============================================================================
   ***************************************************************************
@@ -245,6 +302,7 @@
 .navbar-brand {
     font-size: 24px;
     padding-top: 0px;
+    margin-left: 10px;
 }
 
 .navbar-container {
@@ -282,5 +340,73 @@ nav.compact .nav.navbar-nav.navbar-right li a {
 .navbar-container{
     transition: 0.8s;
     -webkit-transition:  0.8s;
+}
+
+.icon-bar{
+  background-color: black;
+}
+
+nav.compact .navbar-toggle.collapsed span {
+    background-color: white;
+}
+
+.content {
+  display: flex;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 769px) {
+  .cuadro1-bootcamp{
+    order: 1;
+    -webkit-order: 1;
+    width:100%;
+  }
+  .imagen1-bootcamp{
+    order: 2;
+    -webkit-order: 2;
+    width:100%;
+  }
+  .cuadro2-bootcamp{
+    order: 3;
+    -webkit-order: 3;
+    width:100%;
+  }
+  .imagen2-bootcamp{
+    order: 4;
+    -webkit-order: 4;
+    width:100%;
+  }
+  .cuadro3-bootcamp{
+    order: 5;
+    -webkit-order: 5;
+    width:100%;
+  }
+  .imagen3-bootcamp{
+    order: 6;
+    -webkit-order: 6;
+    width:100%;
+  }
+
+  .texto-cuadro-programa{
+    padding-top: 25px;
+  }
+  .texto-cuadro{
+    padding-top: 65px;
+  }
+  .titulo-cuadro-programa{
+    padding-top: 15px;
+  }
+  .titulo-cuadro{
+    padding-top: 75px;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 

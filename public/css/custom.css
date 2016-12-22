@@ -321,9 +321,6 @@ input[type="submit"] { text-align: center; border-radius: 50px; background: #fff
 
 
 
-
-
-
 /*=============================================================================
   ***************************************************************************
   768px Media Query
@@ -331,6 +328,8 @@ input[type="submit"] { text-align: center; border-radius: 50px; background: #fff
 =============================================================================*/
 
 @media (min-width: 768px) {
+
+
 
 
 
