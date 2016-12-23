@@ -387,7 +387,10 @@ nav.compact .navbar-toggle.collapsed span {
 }
 
 
-
+.navbar-collapse.collapse li a:hover {
+      background-color: transparent;
+      font-weight: bold;
+}
 
 
 /*=============================================================================
@@ -395,6 +398,7 @@ nav.compact .navbar-toggle.collapsed span {
 Mobile
   ***************************************************************************
 =============================================================================*/
+
 
 
 .content {
@@ -466,25 +470,26 @@ Mobile
     color: #23272D;
     padding-top: 5px;
     margin-left: 10px;
-}
+  }
 
-.nav.navbar-nav.navbar-right li:nth-child(1) {
-    border: solid rgba(178,178,178,.8);
-    border-width: 0 1px 1px;
-}
-.nav.navbar-nav.navbar-right li:nth-child(2) {
-    border: solid rgba(178,178,178,.8);
-    border-width: 0 1px 1px;
-}
+  .nav.navbar-nav.navbar-right li:nth-child(1) {
+      border: solid rgba(178,178,178,.8);
+      border-width: 0 1px 1px;
+  }
+  .nav.navbar-nav.navbar-right li:nth-child(2) {
+      border: solid rgba(178,178,178,.8);
+      border-width: 0 1px 1px;
+  }
 
-.nav.navbar-nav.navbar-right li:hover {
-    border:0 2px 2px 2px solid white;
-}
+  .navbar-collapse.collapse.in li a:hover {
+      background-color: transparent;
+      font-weight: bold;
+  }
 
-.navbar-collapse.collapse.in {
-    background-color: rgba(67,70,74,.8);
+  .navbar-collapse.collapse.in {
+      background-color: rgba(67,70,74,.8);
+  }
 }
-
 
 @media screen and (min-width: 1170px) {
   .content {
