@@ -25,6 +25,35 @@
   ***************************************************************************
 =============================================================================*/
 
+/*=============================================================================
+  ***************************************************************************
+ Intento de mofificacion de navbar
+  ***************************************************************************
+=============================================================================*/
+
+/*color*/
+
+
+
+/*
+.navbar-collapse.collapse.in ul > li:nth-child(6){
+  visibility: hidden;
+  display: none;
+}
+*/
+
+
+/*
+#navbar.in ul > li:nth-child(6){
+  visibility: hidden;
+  display: none;
+}
+
+#navbar.in ul > li:nth-child(5){
+  visibility: hidden;
+  display: none;
+}
+*/
 
 #header.background-bootcamp{
   background: url('../images/bootcamp-bkg.png') no-repeat center top;
@@ -158,6 +187,7 @@
   font-weight: bold;
   margin-bottom: 15px;
   text-transform: uppercase;
+  padding-top: 25px;
 }
 
 .titulo-cuadro{
@@ -167,6 +197,8 @@
   font-weight: bold;
   margin-bottom: 15px;
   text-transform: uppercase;
+  padding-top: 45px;
+  padding-left: 25px;
 }
 
 .titulo-cuadro-bootcamp{
@@ -205,6 +237,7 @@
   margin-bottom: 15px;
   left: 50px;
   text-indent: 0.5em;
+  padding-top: 15px;
 }
 
 .texto-cuadro-programa:before{
@@ -223,7 +256,10 @@
   font-weight: lighter;
   margin-bottom: 15px;
   left: 50px;
+  padding-left: 25px;
   text-indent: 0.5em;
+  padding-top: 40px;
+  padding-right: 25px;
 }
 
 .texto-cuadro:before{
@@ -350,6 +386,17 @@ nav.compact .navbar-toggle.collapsed span {
     background-color: white;
 }
 
+
+
+
+
+/*=============================================================================
+  ***************************************************************************
+Mobile
+  ***************************************************************************
+=============================================================================*/
+
+
 .content {
   display: flex;
   -webkit-display: flex;
@@ -400,7 +447,44 @@ nav.compact .navbar-toggle.collapsed span {
   .titulo-cuadro{
     padding-top: 75px;
   }
+  #navbar ul > li:nth-child(6){
+  visibility: hidden;
+  display: none;
+  }
+
+  #navbar ul > li:nth-child(5){
+  visibility: hidden;
+  display: none;
+  }
+
+ #navbar ul > li:nth-child(4){
+  visibility: hidden;
+  display: none;
+  }
+
+  .nav.navbar-nav.navbar-right li a {
+    color: #23272D;
+    padding-top: 5px;
+    margin-left: 10px;
 }
+
+.nav.navbar-nav.navbar-right li:nth-child(1) {
+    border: solid rgba(178,178,178,.8);
+    border-width: 0 1px 1px;
+}
+.nav.navbar-nav.navbar-right li:nth-child(2) {
+    border: solid rgba(178,178,178,.8);
+    border-width: 0 1px 1px;
+}
+
+.nav.navbar-nav.navbar-right li:hover {
+    border:0 2px 2px 2px solid white;
+}
+
+.navbar-collapse.collapse.in {
+    background-color: rgba(67,70,74,.8);
+}
+
 
 @media screen and (min-width: 1170px) {
   .content {
@@ -409,4 +493,7 @@ nav.compact .navbar-toggle.collapsed span {
     margin-right: auto;
   }
 }
+
+
+
 
