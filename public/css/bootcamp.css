@@ -450,6 +450,11 @@ Mobile
   }
   .titulo-cuadro{
     padding-top: 75px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   #navbar ul > li:nth-child(6){
   visibility: hidden;

@@ -153,10 +153,8 @@ textarea { font-size: 16px;}
 .logo img { max-width: 100%; width: 200px; display: block; margin: 0 auto 75px auto;}
 .text-logo { font-family: 'Pacifico', cursive; font-size: 50px; text-shadow: 2px 2px 0 rgba(0,0,0,.10); margin: 0 auto 75px auto; display: none;}
 
+/*
 
-.navbar-default .navbar-nav > li > a:hover {
-  color: #02bdd5;
-}
 .navbar.navbar-default {
   border: 0;
   border-radius: 0;
@@ -170,6 +168,8 @@ textarea { font-size: 16px;}
 .navbar-inverse .navbar-toggle {
   background: #444;
 }
+
+*/
 
 /*=============================================================================
   ***************************************************************************
@@ -243,6 +243,12 @@ nav.compact .nav.navbar-nav.navbar-right li a {
 nav.compact .navbar-toggle.collapsed span {
     background-color: white;
 }
+
+.navbar-collapse.collapse li a:hover {
+      background-color: transparent;
+      font-weight: bold;
+}
+
 
 /*=============================================================================
   ***************************************************************************
@@ -335,11 +341,6 @@ input[type="submit"] { text-align: center; border-radius: 50px; background: #fff
   ***************************************************************************
 =============================================================================*/
 
-@media (min-width: 768px) {
-
-
-
-
 
 
 
@@ -374,9 +375,6 @@ input[type="submit"] { text-align: center; border-radius: 50px; background: #fff
 =============================================================================*/
 
 
-@media (min-width: 992px) {
-
-
 
 
 
@@ -407,7 +405,7 @@ input[type="submit"] { text-align: center; border-radius: 50px; background: #fff
 
 
 
-} /*========== 992px MEDIA QUERY END ==========*/
+ /*========== 992px MEDIA QUERY END ==========*/
 
 
 
@@ -453,12 +451,14 @@ input[type="submit"] { text-align: center; border-radius: 50px; background: #fff
 .btn-flat-colour:hover { color: #8dc63f;}
 
 
-
+/*
 @media (min-width: 992px) {
 
 .btn-flat-white:hover { color: #8dc63f; background: #fff;}
 
 .btn-flat-colour:hover { color: #fff; background: #8dc63f;}
+
+*/
 
 .background-colour input[type="submit"]:hover,
 .background-image input[type="submit"]:hover { color: #fff; background: #8dc63f;}
@@ -472,9 +472,51 @@ input[type="email"]:focus { border: 3px solid #fff;}
 
 
 
+/*=============================================================================
+  ***************************************************************************
+  Responsividad
+  ***************************************************************************
+=============================================================================*/
+@media screen and (max-width: 769px) {
+    #navbar ul > li:nth-child(6){
+    visibility: hidden;
+    display: none;
+    }
 
+    #navbar ul > li:nth-child(5){
+    visibility: hidden;
+    display: none;
+    }
 
+   #navbar ul > li:nth-child(4){
+    visibility: hidden;
+    display: none;
+    }
 
+    .nav.navbar-nav.navbar-right li a {
+      color: #23272D;
+      padding-top: 5px;
+      margin-left: 10px;
+    }
+
+  .nav.navbar-nav.navbar-right li:nth-child(1) {
+      border: solid rgba(178,178,178,.8);
+      border-width: 0 1px 1px;
+  }
+  .nav.navbar-nav.navbar-right li:nth-child(2) {
+      border: solid rgba(178,178,178,.8);
+      border-width: 0 1px 1px;
+  }
+
+  .navbar-collapse.collapse.in li a:hover {
+      background-color: transparent;
+      font-weight: bold;
+  }
+
+  .navbar-collapse.collapse.in {
+      background-color: rgba(67,70,74,.8);
+  }
+}
 
 
 
