@@ -160,6 +160,10 @@
   height: 340px;
 }
 
+.texto-titulo-about{
+  color:#FFFFFF;
+}
+
 .titulo-cuadro-programa{
   font-size: 50px;
   line-height: 50px;
@@ -523,6 +527,11 @@ Prueba para cambiar antes de efecto
   display: block;
   }
 
+.titulo-bkg-about{
+  visibility: visible;
+  display: block;
+  }
+
   .button-about{
   visibility: visible;
   }
@@ -530,6 +539,26 @@ Prueba para cambiar antes de efecto
   .image-bkg-about{
   visibility: visible;
   display: block;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .text-bkg-about{
+  visibility: visible;
+  display: block;
+  padding-left: 50%;
+  margin-top: 0px;
+  }
+
+  .button-about{
+  visibility: visible;
+  }
+
+  .titulo-bkg-about{
+  visibility: visible;
+  display: block;
+  padding-left: 50%;
+  margin-top: -150px;
   }
 }
 
