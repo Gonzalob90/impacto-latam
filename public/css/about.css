@@ -181,6 +181,17 @@
   padding-left: 25px;
 }
 
+.titulo-section-about{
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  padding-top: 45px;
+  padding-left: 25px;
+}
+
 .titulo-cuadro-bootcamp{
   font-size: 30px;
   line-height: 30px;
@@ -494,6 +505,32 @@ Prueba para cambiar antes de efecto
 
 
 
+}
+
+  .image-bkg-about{
+  visibility: hidden;
+  display: block;
+  }
+
+@media screen and (max-width: 400px) {
+  .background-about{
+  visibility: hidden;
+  display: none;
+  }
+
+  .text-bkg-about{
+  visibility: visible;
+  display: block;
+  }
+
+  .button-about{
+  visibility: visible;
+  }
+
+  .image-bkg-about{
+  visibility: visible;
+  display: block;
+  }
 }
 
 @media screen and (min-width: 1170px) {
