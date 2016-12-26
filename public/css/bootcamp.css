@@ -503,10 +503,6 @@ Prueba para cambiar antes de efecto
       border-color: rgba(178,178,178,.8);
   }
 
-  nav.compact .navbar-collapse.collapse.in {
-      background-color: rgba(67,70,74,.8);
-  }
-
 
   nav.compact .nav.navbar-nav.navbar-right li:nth-child(1) {
       border: solid rgba(178,178,178,.8);
