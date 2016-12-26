@@ -452,7 +452,6 @@ Mobile
   }
 
   .nav.navbar-nav.navbar-right li a {
-    color: #23272D;
     padding-top: 5px;
     margin-left: 10px;
   }
@@ -463,6 +462,11 @@ Mobile
   }
 
   .navbar-collapse.collapse.in {
+      background-color: #FAFAFA;
+      border-color: rgba(178,178,178,.8);
+  }
+
+  nav.compact .navbar-collapse.collapse.in {
       background-color: rgba(67,70,74,.8);
   }
 
@@ -476,11 +480,6 @@ Prueba para cambiar antes de efecto
   .nav.navbar-nav.navbar-right li a {
     color: black;
     padding-top: 15px;
-  }
-
-  .navbar-collapse.collapse.in {
-      background-color: #FAFAFA;
-      border-color: rgba(178,178,178,.8);
   }
 
 

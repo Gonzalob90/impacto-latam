@@ -285,7 +285,7 @@ nav.compact .nav.navbar-nav.navbar-right li a {
     padding-top: 40px;
   }
 
-    #navbar ul > li:nth-child(6){
+ #navbar ul > li:nth-child(6){
   visibility: hidden;
   display: none;
   }
@@ -301,18 +301,8 @@ nav.compact .nav.navbar-nav.navbar-right li a {
   }
 
   .nav.navbar-nav.navbar-right li a {
-    color: #23272D;
     padding-top: 5px;
     margin-left: 10px;
-  }
-
-  .nav.navbar-nav.navbar-right li:nth-child(1) {
-      border: solid rgba(178,178,178,.8);
-      border-width: 0 1px 1px;
-  }
-  .nav.navbar-nav.navbar-right li:nth-child(2) {
-      border: solid rgba(178,178,178,.8);
-      border-width: 0 1px 1px;
   }
 
   .navbar-collapse.collapse.in li a:hover {
@@ -321,10 +311,38 @@ nav.compact .nav.navbar-nav.navbar-right li a {
   }
 
   .navbar-collapse.collapse.in {
+      background-color: #FAFAFA;
+      border-color: rgba(178,178,178,.8);
+  }
+
+  nav.compact .navbar-collapse.collapse.in {
       background-color: rgba(67,70,74,.8);
   }
 
-  
+/*=============================================================================
+  ***************************************************************************
+Prueba para cambiar antes de efecto
+  ***************************************************************************
+=============================================================================*/
+
+
+  .nav.navbar-nav.navbar-right li a {
+    color: black;
+    padding-top: 15px;
+  }
+
+
+  nav.compact .nav.navbar-nav.navbar-right li:nth-child(1) {
+      border: solid rgba(178,178,178,.8);
+      border-width: 0 1px 1px;
+  }
+  nav.compact .nav.navbar-nav.navbar-right li:nth-child(2) {
+      border: solid rgba(178,178,178,.8);
+      border-width: 0 1px 1px;
+  }
+
+
+
 }
 
 @media screen and (min-width: 1170px) {

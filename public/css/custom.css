@@ -477,6 +477,13 @@ input[type="email"]:focus { border: 3px solid #fff;}
   Responsividad
   ***************************************************************************
 =============================================================================*/
+
+.navbar-collapse.collapse li a:hover {
+      background-color: transparent;
+      font-weight: bold;
+}
+
+
 @media screen and (max-width: 769px) {
     #navbar ul > li:nth-child(6){
     visibility: hidden;
@@ -514,6 +521,11 @@ input[type="email"]:focus { border: 3px solid #fff;}
   }
 
   .navbar-collapse.collapse.in {
+      background-color: #FAFAFA;
+      border-color: rgba(178,178,178,.8);
+  }
+
+  nav.compact .navbar-collapse.collapse.in {
       background-color: rgba(67,70,74,.8);
   }
 }
