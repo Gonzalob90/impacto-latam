@@ -161,6 +161,15 @@
   color:white;
 }
 
+.heroa {
+  width: 45px;
+  position: relative;
+  background: url("../images/aprende-icon.png") no-repeat center center;
+  height: 60px;
+  text-align: center;
+  margin-left: 15px;
+}
+
 /*=============================================================================
   ***************************************************************************
   Nuevo Nav Bar
