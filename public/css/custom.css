@@ -490,6 +490,13 @@ input[type="email"]:focus { border: 3px solid #fff;}
 
 
 
+
+
+.contactanos-row{
+  background-color: transparent;
+  width:100%;
+}
+
 /*=============================================================================
   ***************************************************************************
   Responsividad
