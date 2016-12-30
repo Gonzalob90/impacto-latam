@@ -519,7 +519,7 @@ Prueba para cambiar antes de efecto
   display: block;
   }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 405px) {
   .background-about{
   visibility: hidden;
   display: none;
@@ -543,6 +543,12 @@ Prueba para cambiar antes de efecto
   visibility: visible;
   display: block;
   }
+
+  .button-about{
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
 }
 
 @media screen and (min-width: 769px){

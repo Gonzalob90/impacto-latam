@@ -546,6 +546,11 @@ input[type="email"]:focus { border: 3px solid #fff;}
   nav.compact .navbar-collapse.collapse.in {
       background-color: rgba(67,70,74,.8);
   }
+
+  .button-informacion{
+    margin-top: 50px;
+  }
+
 }
 
 
